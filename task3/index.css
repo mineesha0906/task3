@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Free\ Desktop\ Bg!\ \(No\ Cre\ Needed\).jpg');
+    background-size: cover;       /* Makes image cover entire screen */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center;  /* Centers the image */
+  }
+  
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  #question {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #answers button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  #answers button.correct {
+    background-color: #a5d6a7;
+  }
+  
+  #answers button.wrong {
+    background-color: #ef9a9a;
+  }
+  
+  #next-btn {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.75rem;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  #score {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
